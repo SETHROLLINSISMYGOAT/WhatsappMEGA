@@ -26,7 +26,7 @@ import com.siddhant.whatsapp.R
 
 @Composable
 @Preview(showSystemUi = true)
-fun WeclomeScreen(){
+fun WelcomeScreen(){
     Box(modifier = Modifier.fillMaxSize()){
         Image(
             painter = painterResource(R.drawable.welcomescreen),
