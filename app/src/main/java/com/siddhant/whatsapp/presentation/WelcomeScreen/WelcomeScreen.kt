@@ -22,11 +22,13 @@ import androidx.compose.ui.graphics.Outline
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import com.siddhant.whatsapp.R
+import com.siddhant.whatsapp.presentation.Navigation.Routes
 
 @Composable
-@Preview(showSystemUi = true)
-fun WelcomeScreen(){
+
+fun WelcomeScreen(navHostController: NavHostController){
     Box(modifier = Modifier.fillMaxSize()){
         Image(
             painter = painterResource(R.drawable.welcomescreen),
@@ -38,7 +40,7 @@ fun WelcomeScreen(){
 
 
         Button(
-            onClick = {},
+            onClick = {navHostController.navigate(Routes.UserRegistrationScreen)},
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color(0xFF128C7E)
             ),

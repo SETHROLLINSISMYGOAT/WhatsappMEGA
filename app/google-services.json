@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "824148466297",
+    "firebase_url": "https://quickscan-goat-antivirus-default-rtdb.firebaseio.com",
+    "project_id": "quickscan-goat-antivirus",
+    "storage_bucket": "quickscan-goat-antivirus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824148466297:android:4ed046200b645927f592a8",
+        "android_client_info": {
+          "package_name": "com.ebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824148466297-ss1233s5rhnbo4lpjltsk5510a4olme8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8y7QyFIhbET_QLTeekGFJnw936MeS5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824148466297-ss1233s5rhnbo4lpjltsk5510a4olme8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824148466297-s8keum3371ftl7utvk5iq1nq3dt8ias6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lifeassist.lifeassist"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824148466297:android:5663733ab1bf8a77f592a8",
+        "android_client_info": {
+          "package_name": "com.example.ridefeedpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824148466297-6akvjihqsurlcqqbvo35kmbv87bkld48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridefeedpro",
+            "certificate_hash": "278a85c96612dac25de3f8010839f9ffdb1b55e7"
+          }
+        },
+        {
+          "client_id": "824148466297-ss1233s5rhnbo4lpjltsk5510a4olme8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8y7QyFIhbET_QLTeekGFJnw936MeS5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824148466297-ss1233s5rhnbo4lpjltsk5510a4olme8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824148466297-s8keum3371ftl7utvk5iq1nq3dt8ias6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lifeassist.lifeassist"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824148466297:android:2f7df193c169af99f592a8",
+        "android_client_info": {
+          "package_name": "com.siddhant.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824148466297-ss1233s5rhnbo4lpjltsk5510a4olme8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8y7QyFIhbET_QLTeekGFJnw936MeS5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824148466297-ss1233s5rhnbo4lpjltsk5510a4olme8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824148466297-s8keum3371ftl7utvk5iq1nq3dt8ias6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lifeassist.lifeassist"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
