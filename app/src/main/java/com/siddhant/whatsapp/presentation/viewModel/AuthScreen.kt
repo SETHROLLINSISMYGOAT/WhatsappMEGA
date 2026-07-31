@@ -2,7 +2,7 @@ package com.siddhant.whatsapp.presentation.viewModel
 
 import androidx.hilt.navigation.compose.hiltViewModel
 
-package com.siddhant.whatsapp.presentation.AuthScreen
+
 
 import android.app.Activity
 import android.widget.Toast
@@ -31,6 +31,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 

@@ -1,5 +1,6 @@
 package com.siddhant.whatsapp.presentation.Navigation
 
+import com.siddhant.whatsapp.presentation.viewModel.phoneAuthUser
 import kotlinx.serialization.Serializable
 
 sealed class Routes {
@@ -15,6 +16,8 @@ sealed class Routes {
     data object UpdateScreen:Routes()
     @Serializable
     data object CallScreen:Routes()
+    @Serializable
+    data class AuthScreen(val phoneNumber:String):Routes()
 
 
 }

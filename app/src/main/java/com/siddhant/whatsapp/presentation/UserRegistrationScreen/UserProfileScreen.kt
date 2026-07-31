@@ -1,6 +1,5 @@
 package com.siddhant.whatsapp.presentation.UserRegistrationScreen
 
-import android.app.Activity
 import com.siddhant.whatsapp.R
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,19 +37,14 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavHostController
-import com.siddhant.whatsapp.presentation.Navigation.Routes
-import com.siddhant.whatsapp.presentation.viewModel.AuthViewModel
 
 @Composable
-
-fun UserRegistrationScreen(navHostController: NavHostController,viewModel: AuthViewModel= hiltViewModel()) {
+@Preview(showSystemUi = true)
+fun UserProfileScreen() {
     var expanded by remember { mutableStateOf(false) }
     var selectedCountry by remember { mutableStateOf("India") }
     var countryCode by remember { mutableStateOf("+91") }
     var phoneNumber by remember { mutableStateOf("") }
-    var phoneError by remember { mutableStateOf("") }
 
 
     val countryMap = mapOf(
@@ -173,27 +167,7 @@ fun UserRegistrationScreen(navHostController: NavHostController,viewModel: AuthV
         Spacer(modifier = Modifier.height(18.dp))
 
         Button(
-            onClick = {
-
-                if (phoneNumber.length >= 10) {
-
-                    val fullPhoneNumber = "$phoneNumber"
-
-                    viewModel.sendVerificationCode(
-                        activity = navHostController.context as Activity,
-                        phoneNumber = fullPhoneNumber
-                    )
-
-                    navHostController.navigate(
-                        Routes.AuthScreen(fullPhoneNumber)
-                    )
-
-                } else {
-
-                    phoneError = "Please enter a valid 10 digit phone number"
-
-                }
-            },
+            onClick = { /* TODO: Handle Next */ },
             shape = RoundedCornerShape(6.dp),
             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF128C7E))
         ) {
